@@ -6,11 +6,12 @@ export const Nav = styled.nav`
   background: #000;
   height: 80px;
   display: flex;
-  justify-content: space-between;
   padding: 0.5rem calc((100vw - 1000px) / 2);
   z-index: 10;
-  /* Third Nav */
-  /* justify-content: flex-start; */
+  justify-content: flex-start;
+
+  //center nav
+  justify-content: space-between;
 `;
 
 export const NavLink = styled(Link)`
@@ -44,11 +45,9 @@ export const NavMenu = styled.div`
   display: flex;
   align-items: center;
   margin-right: -24px;
-  /* Second Nav */
-  /* margin-right: 24px; */
-  /* Third Nav */
-  /* width: 100vw;
-  white-space: nowrap; */
+  width: 100vw;
+  white-space: nowrap;
+
   @media screen and (max-width: 768px) {
     display: none;
   }
@@ -58,9 +57,9 @@ export const NavBtn = styled.nav`
   display: flex;
   align-items: center;
   margin-right: 24px;
-  /* Third Nav */
-  /* justify-content: flex-end;
-  width: 100vw; */
+  justify-content: flex-end;
+  width: 100vw;
+  
   @media screen and (max-width: 768px) {
     display: none;
   }
