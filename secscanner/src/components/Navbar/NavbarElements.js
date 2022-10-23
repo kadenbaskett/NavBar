@@ -30,6 +30,7 @@ export const NavLink = styled(Link)`
   cursor: pointer;
   &.active {
     color: #FF6B00;
+    border-bottom: 3px solid #FF6B00;
   }
 `;
 
