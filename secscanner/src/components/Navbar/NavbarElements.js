@@ -62,8 +62,8 @@ export const NavMenu = styled.div`
   display: flex;
   align-items: center;
   margin-right: -24px;
-  width: 100vw;
-  white-space: nowrap;
+  /* width: 100vw;
+  white-space: nowrap; */
 
   @media screen and (max-width: 768px) {
     display: none;
@@ -74,8 +74,8 @@ export const NavBtn = styled.nav`
   display: flex;
   align-items: center;
   margin-right: 24px;
-  justify-content: flex-end;
-  width: 100vw;
+  /* justify-content: flex-end;
+  width: 100vw; */
 
   @media screen and (max-width: 768px) {
     display: none;
