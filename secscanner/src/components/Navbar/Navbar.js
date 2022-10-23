@@ -6,25 +6,25 @@ const Navbar = () => {
     <>
       <Nav>
         <NavLink to="/">
-          <h1>LOGO</h1>
+          <h1>HuddleUp</h1>
         </NavLink>
         <Bars />
         <NavMenu>
-          <NavLink to="/about" activeStyle>
+          <NavLink to="about" activeStyle>
             About
           </NavLink>
-          <NavLink to="/services" activeStyle>
+          <NavLink to="services" activeStyle>
             Services
           </NavLink>
-          <NavLink to="/contact-us" activeStyle>
+          <NavLink to="contact-us" activeStyle>
             Contact Us
           </NavLink>
-          <NavLink to="/sign-in" activeStyle>
+          <NavLink to="sign-in" activeStyle>
             Sign In
           </NavLink>
         </NavMenu>
         <NavBtn>
-          <NavBtnLink to="/sign-in">Sign In</NavBtnLink>
+          <NavBtnLink to="sign-in">Sign In</NavBtnLink>
         </NavBtn>
       </Nav>
     </>

@@ -8,10 +8,16 @@ export const Nav = styled.nav`
   display: flex;
   padding: 0.5rem calc((100vw - 1000px) / 2);
   z-index: 10;
-  justify-content: flex-start;
+
+  /* //left nav
+  justify-content: flex-start; */
 
   //center nav
   justify-content: space-between;
+
+  @media screen and (max-width: 960px) {
+    transition: 0.8s all ease;
+  }
 `;
 
 export const NavLink = styled(Link)`
@@ -23,7 +29,7 @@ export const NavLink = styled(Link)`
   height: 100%;
   cursor: pointer;
   &.active {
-    color: #15cdfc;
+    color: #FF6B00;
   }
 `;
 
@@ -59,7 +65,7 @@ export const NavBtn = styled.nav`
   margin-right: 24px;
   justify-content: flex-end;
   width: 100vw;
-  
+
   @media screen and (max-width: 768px) {
     display: none;
   }
@@ -67,7 +73,7 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(Link)`
   border-radius: 4px;
-  background: #256ce1;
+  background: #FF6B00;
   padding: 10px 22px;
   color: #fff;
   outline: none;
@@ -80,6 +86,6 @@ export const NavBtnLink = styled(Link)`
   &:hover {
     transition: all 0.2s ease-in-out;
     background: #fff;
-    color: #010606;
+    color: #FF6B00;
   }
 `;
