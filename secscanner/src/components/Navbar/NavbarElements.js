@@ -34,6 +34,16 @@ export const NavLink = styled(Link)`
   }
 `;
 
+export const NavLogo = styled(Link)`
+  color: #FF6B00;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 100%;
+  cursor: pointer;
+`;
+
 export const Bars = styled(FaBars)`
   display: none;
   color: #fff;
