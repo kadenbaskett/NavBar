@@ -62,6 +62,8 @@ export const NavMenu = styled.div`
   display: flex;
   align-items: center;
   margin-right: -24px;
+
+  //left nav
   /* width: 100vw;
   white-space: nowrap; */
 
@@ -74,6 +76,8 @@ export const NavBtn = styled.nav`
   display: flex;
   align-items: center;
   margin-right: 24px;
+
+  //left nav
   /* justify-content: flex-end;
   width: 100vw; */
 
